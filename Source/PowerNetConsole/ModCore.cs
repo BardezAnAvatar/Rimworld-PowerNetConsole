@@ -16,6 +16,7 @@ namespace PowerNetConsole
         public static ModCore Instance { get; private set; }
 
         public ModWiki Wiki { get; internal set; }
+
         public Harmony HarmonyInstance { get; private set; }
 
         public ModCore(ModContentPack content) : base(content)
@@ -28,8 +29,6 @@ namespace PowerNetConsole
 
             PatchAll();
             Log($"Patched {HarmonyInstance.GetPatchedMethods().Count()} methods.");
-
-            GetSettings<Settings>(); // Required.
         }
 
         private void AddHook()
@@ -55,16 +54,6 @@ namespace PowerNetConsole
         public static void Trace(string msg)
         {
             Verse.Log.Message(msg ?? "<null>");
-        }
-
-        public override string SettingsCategory()
-        {
-            return "PowerNet Console";
-        }
-
-        public override void DoSettingsWindowContents(Rect inRect)
-        {
-            Settings.DoWindow(inRect);
         }
     }
 }

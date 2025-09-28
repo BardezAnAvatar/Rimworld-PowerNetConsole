@@ -54,6 +54,9 @@
 			<Cleanliness>10</Cleanliness>
 			<Mass>80</Mass>
 		</statBases>
+		<researchPrerequisites>
+			<li>InstantRemoteFlick</li>
+		</researchPrerequisites>
 	</ThingDef>
 
 </Defs>

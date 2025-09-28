@@ -3,7 +3,7 @@ using HarmonyLib;
 using UnityEngine;
 using Verse;
 
-namespace AntimatterAnnihilation
+namespace PowerNetConsole
 {
     [StaticConstructorOnStartup]
     internal static class Temp

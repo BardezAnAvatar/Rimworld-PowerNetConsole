@@ -6,7 +6,7 @@ using UnityEngine;
 using Verse;
 using Object = UnityEngine.Object;
 
-namespace AntimatterAnnihilation
+namespace PowerNetConsole
 {
     internal class HotSwapAllAttribute : Attribute { }
     
@@ -34,7 +34,7 @@ namespace AntimatterAnnihilation
 
         private void AddHook()
         {
-            var go = new GameObject("AntimatterAnnihilation Hook");
+            var go = new GameObject("PowerNetConsole Hook");
             go.hideFlags = HideFlags.HideAndDontSave;
             Object.DontDestroyOnLoad(go);
 
@@ -43,7 +43,7 @@ namespace AntimatterAnnihilation
 
         private void PatchAll()
         {
-            HarmonyInstance = new Harmony("epicguru.AntimatterAnnihilation");
+            HarmonyInstance = new Harmony("epicguru.PowerNetConsole");
             HarmonyInstance.PatchAll();
         }
 

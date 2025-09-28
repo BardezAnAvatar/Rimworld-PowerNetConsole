@@ -1,4 +1,4 @@
-﻿namespace AntimatterAnnihilation.Utils
+﻿namespace PowerNetConsole.Utils
 {
     public interface IConditionalGlower
     {

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace AntimatterAnnihilation.Utils
+namespace PowerNetConsole.Utils
 {
     public static class Extensions
     {

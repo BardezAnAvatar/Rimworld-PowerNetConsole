@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net472</TargetFramework>
-    <AssemblyName>AntimatterAnnihilation</AssemblyName>
+    <AssemblyName>PowerNetConsole</AssemblyName>
     <OutputType>Library</OutputType>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <!--<NoStdLib>true</NoStdLib>-->

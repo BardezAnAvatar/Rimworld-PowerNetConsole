@@ -1,7 +1,7 @@
 ﻿using RimWorld;
 using Verse;
 
-namespace AntimatterAnnihilation.Utils
+namespace PowerNetConsole.Utils
 {
     [DefOf]
     public static class AADefOf

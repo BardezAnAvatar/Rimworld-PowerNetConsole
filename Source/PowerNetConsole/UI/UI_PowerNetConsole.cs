@@ -1,5 +1,5 @@
-﻿using AntimatterAnnihilation.Buildings;
-using AntimatterAnnihilation.Utils;
+﻿using PowerNetConsole.Buildings;
+using PowerNetConsole.Utils;
 using RimWorld;
 using System;
 using System.Collections.Generic;
@@ -8,7 +8,7 @@ using System.Reflection;
 using UnityEngine;
 using Verse;
 
-namespace AntimatterAnnihilation.UI
+namespace PowerNetConsole.UI
 {
     public class UI_PowerNetConsole : Window
     {

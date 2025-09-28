@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace AntimatterAnnihilation.Utils
+namespace PowerNetConsole.Utils
 {
     public class ObjectPool<T> : IDisposable where T : IResettable
     {

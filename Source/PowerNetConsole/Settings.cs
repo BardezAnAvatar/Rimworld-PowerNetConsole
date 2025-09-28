@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using Verse;
 
-namespace AntimatterAnnihilation
+namespace PowerNetConsole
 {
     public class Settings : ModSettings
     {

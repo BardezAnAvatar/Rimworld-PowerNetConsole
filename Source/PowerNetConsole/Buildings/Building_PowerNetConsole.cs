@@ -1,10 +1,10 @@
-﻿using AntimatterAnnihilation.UI;
+﻿using PowerNetConsole.UI;
 using RimWorld;
 using System;
 using System.Collections.Generic;
 using Verse;
 
-namespace AntimatterAnnihilation.Buildings
+namespace PowerNetConsole.Buildings
 {
     [StaticConstructorOnStartup]
     public class Building_PowerNetConsole : Building

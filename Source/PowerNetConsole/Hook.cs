@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace AntimatterAnnihilation
+namespace PowerNetConsole
 {
     public class Hook : MonoBehaviour
     {

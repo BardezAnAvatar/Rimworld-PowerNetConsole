@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using Verse;
 
-namespace AntimatterAnnihilation
+namespace PowerNetConsole
 {
     [StaticConstructorOnStartup]
     public static class Content
@@ -20,7 +20,7 @@ namespace AntimatterAnnihilation
         static Content()
         {
             // Load content here.
-            PowerNetGraph = ContentFinder<Texture2D>.Get("AntimatterAnnihilation/UI/PowerNetConsole Graph");
+            PowerNetGraph = ContentFinder<Texture2D>.Get("PowerNetConsole/UI/PowerNetConsole Graph");
 
             ModCore.Trace("Loaded content.");
         }

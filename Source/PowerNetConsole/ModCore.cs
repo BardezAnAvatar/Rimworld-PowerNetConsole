@@ -43,7 +43,7 @@ namespace PowerNetConsole
 
         private void PatchAll()
         {
-            HarmonyInstance = new Harmony("epicguru.PowerNetConsole");
+            HarmonyInstance = new Harmony("bardez.PowerNetConsole");
             HarmonyInstance.PatchAll();
         }
 
@@ -59,7 +59,7 @@ namespace PowerNetConsole
 
         public override string SettingsCategory()
         {
-            return "Antimatter Annihilation";
+            return "PowerNet Console";
         }
 
         public override void DoSettingsWindowContents(Rect inRect)

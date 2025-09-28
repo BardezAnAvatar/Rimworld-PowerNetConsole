@@ -4,11 +4,11 @@ using Verse;
 namespace PowerNetConsole.Utils
 {
     [DefOf]
-    public static class AADefOf
+    public static class DefRefs
     {
-        static AADefOf()
+        static DefRefs()
         {
-            DefOfHelper.EnsureInitializedInCtor(typeof(AADefOf));
+            DefOfHelper.EnsureInitializedInCtor(typeof(DefRefs));
         }
 
         public static ResearchProjectDef InstantFlick_AA;

@@ -1,10 +1,10 @@
-﻿using PowerNetConsole.Buildings;
-using PowerNetConsole.Utils;
-using RimWorld;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Reflection;
+using PowerNetConsole.Buildings;
+using PowerNetConsole.Utils;
+using RimWorld;
 using UnityEngine;
 using Verse;
 
@@ -27,6 +27,7 @@ namespace PowerNetConsole.UI
         }
 
         private static ObjectPool<Category> pool = new ObjectPool<Category>() { CreateFunction = () => new Category() };
+
         private static FieldInfo WantsToBeOnInfo
         {
             get
@@ -39,8 +40,8 @@ namespace PowerNetConsole.UI
                 return fieldInt;
             }
         }
-        private static FieldInfo fieldInt;
 
+        private static FieldInfo fieldInt;
 
         public static UI_PowerNetConsole Open(Building_PowerNetConsole cons)
         {
@@ -108,6 +109,7 @@ namespace PowerNetConsole.UI
                     return (bool)WantsToBeOnInfo.GetValue(FlickComp);
             }
         }
+
         public override Vector2 InitialSize => new Vector2(620, 650);
 
         private Building_PowerNetConsole console;
@@ -275,7 +277,7 @@ namespace PowerNetConsole.UI
             if (!st.IsRunning)
                 st.Start();
 
-            if(st.ElapsedMilliseconds >= RefreshInterval)
+            if (st.ElapsedMilliseconds >= RefreshInterval)
             {
                 st.Restart();
                 Refresh();
@@ -320,7 +322,7 @@ namespace PowerNetConsole.UI
             string ascDec = Ascending ? "AA.Ascending".Translate() : "AA.Descending".Translate();
             var isCat = true;
             // Name.
-            if(Widgets.ButtonTextSubtle(GetColumnRect(), $"<b>{"AA.Name".Translate().CapitalizeFirst()}</b> {(SortingMode == SortMode.Name ? ascDec : "")}"))
+            if (Widgets.ButtonTextSubtle(GetColumnRect(), $"<b>{"AA.Name".Translate().CapitalizeFirst()}</b> {(SortingMode == SortMode.Name ? ascDec : "")}"))
             {
                 if (SortingMode != SortMode.Name)
                 {
@@ -338,7 +340,7 @@ namespace PowerNetConsole.UI
             }
 
             // Power in/out.
-            if(Widgets.ButtonTextSubtle(GetColumnRect(), $"<b>{"AA.Power".Translate().CapitalizeFirst()}</b> {(SortingMode == SortMode.Power ? ascDec : "")}"))
+            if (Widgets.ButtonTextSubtle(GetColumnRect(), $"<b>{"AA.Power".Translate().CapitalizeFirst()}</b> {(SortingMode == SortMode.Power ? ascDec : "")}"))
             {
                 {
                     if (SortingMode != SortMode.Power)
@@ -384,7 +386,7 @@ namespace PowerNetConsole.UI
 
             foreach (var cat in AllCats)
             {
-                if(cat.Count == 1)
+                if (cat.Count == 1)
                 {
                     indented = false;
                     isCat = true;
@@ -454,7 +456,7 @@ namespace PowerNetConsole.UI
                     if (!isExp)
                         continue;
                     indented = true;
-                    foreach(var thing in cat.Things)
+                    foreach (var thing in cat.Things)
                     {
                         DrawThing(thing);
                     }
@@ -495,7 +497,7 @@ namespace PowerNetConsole.UI
                 if (Widgets.ButtonInvisible(nameRect))
                 {
                     Find.CameraDriver.JumpToCurrentMapLoc(thing.Thing.DrawPos);
-                    if(!Input.GetKey(KeyCode.LeftShift))
+                    if (!Input.GetKey(KeyCode.LeftShift))
                         Find.Selector.ClearSelection();
                     Find.Selector.Select(thing.Thing);
                 }
@@ -516,7 +518,7 @@ namespace PowerNetConsole.UI
                 int add = indented ? 32 : 0;
                 if (isCat)
                     add += 32;
-                var r = new Rect(inRect.x + cumulativeWidths[column] + add, inRect.y,  columnWidths[column], itemHeight);
+                var r = new Rect(inRect.x + cumulativeWidths[column] + add, inRect.y, columnWidths[column], itemHeight);
                 column++;
                 return r;
             }

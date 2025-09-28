@@ -1,5 +1,0 @@
-RequiredResearch:R_HyperAlloy_AA
-ENDTAGS
-
-#Производится в термоядерной плавильне:#
-@AlloyFusionMachine_AA@

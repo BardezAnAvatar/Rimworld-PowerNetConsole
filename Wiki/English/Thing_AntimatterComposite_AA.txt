@@ -1,5 +1,0 @@
-RequiredResearch:R_AntimatterComposite_AA
-ENDTAGS
-
-#Manufactured using the Composite Refiner:#
-@CompositeRefiner_AA@

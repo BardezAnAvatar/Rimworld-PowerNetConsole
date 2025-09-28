@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("AnitmatterAnnihilation")]
+[assembly: AssemblyTitle("PowerNetConsole")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("AnitmatterAnnihilation")]
-[assembly: AssemblyCopyright("Copyright ©  2020")]
+[assembly: AssemblyProduct("PowerNetConsole")]
+[assembly: AssemblyCopyright("Copyright © RimWorld Modders 2025")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("b91d0e3b-09e7-44a7-9fec-112a0b5dafb4")]
+[assembly: Guid("4c2a510d-ef44-4576-acf4-e33aa2ff8899")]
 
 // Version information for an assembly consists of the following four values:
 //

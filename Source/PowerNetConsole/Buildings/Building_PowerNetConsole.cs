@@ -1,7 +1,7 @@
-﻿using PowerNetConsole.UI;
-using RimWorld;
-using System;
+﻿using System;
 using System.Collections.Generic;
+using PowerNetConsole.UI;
+using RimWorld;
 using Verse;
 
 namespace PowerNetConsole.Buildings
@@ -77,7 +77,7 @@ namespace PowerNetConsole.Buildings
 
         public override IEnumerable<Gizmo> GetGizmos()
         {
-            foreach(var thing in base.GetGizmos())
+            foreach (var thing in base.GetGizmos())
             {
                 yield return thing;
             }

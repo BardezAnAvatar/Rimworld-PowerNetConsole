@@ -8,7 +8,7 @@ using Object = UnityEngine.Object;
 namespace PowerNetConsole
 {
     internal class HotSwapAllAttribute : Attribute { }
-    
+
     [HotSwapAll]
     public class ModCore : Mod
     {

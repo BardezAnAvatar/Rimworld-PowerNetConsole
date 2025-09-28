@@ -1,5 +1,0 @@
-base
-lab
-outpost
-camp
-facility

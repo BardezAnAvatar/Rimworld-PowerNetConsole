@@ -1,36 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <!-- Cardinal directions -->
-  <AA.North>北</AA.North>
-  <AA.East>東</AA.East>
-  <AA.South>南</AA.South>
-  <AA.West>西</AA.West>
+	<!-- General -->
+	<AA.Enabled>啟用</AA.Enabled>
+	<AA.Turn>轉換</AA.Turn>  <!-- As in 'turn' machine on or off. -->
+	<AA.Name>名稱</AA.Name>
+	<AA.Power>電力</AA.Power>
 
-  <!-- Time -->
-  <AA.Hours>小時</AA.Hours>
-  <AA.Days>天</AA.Days>
-  <AA.Quadrums>quadrums</AA.Quadrums>
-
-  <!-- Settings -->
-  <AA.PowerGenMulti>發電倍率: {0}%</AA.PowerGenMulti>
-  <AA.FuelConsumeRate>燃料消耗倍率: {0}%</AA.FuelConsumeRate>
-  <AA.InjectorVolume>注入器噴射倍率: {0}%</AA.InjectorVolume>
-  <AA.EnableEasterEggs>復活彩蛋:</AA.EnableEasterEggs>
-
-  <!-- PowerNet Console -->
-  <AA.OpenConsole>打開控制台</AA.OpenConsole>
-  <AA.OpenConsoleDesc>顯示已連接的電網的詳細信息，並允許您打開和關閉電源。</AA.OpenConsoleDesc>
-  <AA.PowerNetInfo>電網訊息</AA.PowerNetInfo>
-  <AA.InstantFlickActive>Instant flick active!</AA.InstantFlickActive>
-  <AA.Watts>KW</AA.Watts>
-  <AA.KiloWatts>KW</AA.KiloWatts>
-  <AA.MegaWatts>MW</AA.MegaWatts>
-  <AA.GigaWatts>GW</AA.GigaWatts>
-  <AA.ConsoleNotConnected>控制台未連接到電源網絡。</AA.ConsoleNotConnected>
-  <AA.ConsoleNotPowered>控制台沒有電源。</AA.ConsoleNotPowered>
-  <AA.Ascending>(控制)</AA.Ascending>
-  <AA.Descending>(Des)</AA.Descending>
-  <AA.TurnAll>把所有</AA.TurnAll>  <!-- As in 'turn all' machines on/off. -->
+	<!-- PowerNet Console -->
+	<AA.OpenConsole>打開控制台</AA.OpenConsole>
+	<AA.OpenConsoleDesc>顯示已連接的電網的詳細信息，並允許您打開和關閉電源。</AA.OpenConsoleDesc>
+	<AA.PowerNetInfo>電網訊息</AA.PowerNetInfo>
+	<AA.InstantFlickActive>Instant flick active!</AA.InstantFlickActive>
+	<AA.Watts>KW</AA.Watts>
+	<AA.KiloWatts>KW</AA.KiloWatts>
+	<AA.MegaWatts>MW</AA.MegaWatts>
+	<AA.GigaWatts>GW</AA.GigaWatts>
+	<AA.ConsoleNotConnected>控制台未連接到電源網絡。</AA.ConsoleNotConnected>
+	<AA.ConsoleNotPowered>控制台沒有電源。</AA.ConsoleNotPowered>
+	<AA.Ascending>(控制)</AA.Ascending>
+	<AA.Descending>(Des)</AA.Descending>
+	<AA.TurnAll>把所有</AA.TurnAll>  <!-- As in 'turn all' machines on/off. -->
 
 </LanguageData>

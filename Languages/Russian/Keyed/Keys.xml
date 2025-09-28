@@ -20,6 +20,6 @@
   <AA.ConsoleNotPowered>Консоль обесточена.</AA.ConsoleNotPowered>
   <AA.Ascending>(Воз)</AA.Ascending>
   <AA.Descending>(Убв)</AA.Descending>
-  <AA.TurnAll>Все</AA.TurnAll>  <!-- As in 'turn all' machines on/off. -->
+  <AA.TurnAll>включить Все</AA.TurnAll>  <!-- As in 'turn all' machines on/off. -->
 
 </LanguageData>

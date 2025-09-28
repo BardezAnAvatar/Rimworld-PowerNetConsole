@@ -2,17 +2,17 @@
 <Defs>
 
 	<ResearchProjectDef>
-		<defName>InstantRemoteFlick</defName>
-		<label>instant flick</label>
-		<description>Using the PowerNet Console, send a signal directly through the power lines to instantly turn machines on or off.</description>
+		<defName>PowerNetConsole_Building</defName>
+		<label>PowerNet Console</label>
+		<description>A console that integrates with your power grid that gives detail over what draws power from your grid.</description>
 		<baseCost>600</baseCost>
 		<techLevel>Industrial</techLevel>
 		<tab>PowerNet</tab>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-		<researchViewX>1.50</researchViewX>
+		<researchViewX>1.00</researchViewX>
 		<researchViewY>1.45</researchViewY>
 		<prerequisites>
-			<li>PowerNetConsole_Building</li>
+			<li>MicroelectronicsBasics</li>
 		</prerequisites>
 	</ResearchProjectDef>
 

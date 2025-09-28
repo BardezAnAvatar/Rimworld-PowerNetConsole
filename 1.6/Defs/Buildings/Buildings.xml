@@ -55,7 +55,7 @@
 			<Mass>80</Mass>
 		</statBases>
 		<researchPrerequisites>
-			<li>InstantRemoteFlick</li>
+			<li>PowerNetConsole_Building</li>
 		</researchPrerequisites>
 	</ThingDef>
 

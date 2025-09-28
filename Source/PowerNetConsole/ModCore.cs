@@ -1,7 +1,6 @@
 ﻿using System;
-using HarmonyLib;
-using InGameWiki;
 using System.Linq;
+using HarmonyLib;
 using UnityEngine;
 using Verse;
 using Object = UnityEngine.Object;
@@ -15,14 +14,12 @@ namespace PowerNetConsole
     {
         public static ModCore Instance { get; private set; }
 
-        public ModWiki Wiki { get; internal set; }
-
         public Harmony HarmonyInstance { get; private set; }
 
         public ModCore(ModContentPack content) : base(content)
         {
             Instance = this;
-            Log("Hello, world!");
+            Log("Hello, Rimworld! PowerNet Console here!");
 
             AddHook();
             Trace("Added hook.");

@@ -3,7 +3,7 @@
 
   <!-- General -->
   <AA.Enabled>питание</AA.Enabled>
-  <AA.Turn></AA.Turn>  <!-- As in 'turn' machine on or off. -->
+  <AA.Turn>включить</AA.Turn>  <!-- As in 'turn' machine on or off. -->
   <AA.Name>имя</AA.Name>
   <AA.Power>мощность</AA.Power>
 

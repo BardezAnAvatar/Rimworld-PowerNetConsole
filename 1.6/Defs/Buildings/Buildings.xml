@@ -14,10 +14,7 @@
 		<defName>PowerNetConsole</defName>
 		<thingClass>PowerNetConsole.Buildings.Building_PowerNetConsole</thingClass>
 		<label>PowerNet console</label>
-		<description>
-			Shows a detailed overview of the power network, showing where power is being used and produced.
-			Also has the ability to switch machines on or off remotely.
-		</description>
+		<description>Shows a detailed overview of the power network, showing where power is being used and produced. Also has the ability to switch machines on or off remotely.</description>
 		<graphicData>
 			<texPath>PowerNetConsole/Buildings/PowerNetConsole</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>

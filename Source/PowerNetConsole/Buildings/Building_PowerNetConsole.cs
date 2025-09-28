@@ -18,6 +18,7 @@ namespace PowerNetConsole.Buildings
                 return PowerTraderComp.PowerOn && PowerTraderComp.PowerNet != null;
             }
         }
+
         public override Graphic Graphic
         {
             get

@@ -11,6 +11,6 @@ namespace PowerNetConsole.Utils
             DefOfHelper.EnsureInitializedInCtor(typeof(DefRefs));
         }
 
-        public static ResearchProjectDef InstantFlick_AA;
+        public static ResearchProjectDef InstantRemoteFlick;
     }
 }

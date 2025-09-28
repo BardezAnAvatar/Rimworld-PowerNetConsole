@@ -16,13 +16,13 @@ namespace PowerNetConsole.UI
         {
             get
             {
-                if (DefRefs.InstantFlick_AA == null)
+                if (DefRefs.InstantRemoteFlick == null)
                 {
                     Log.Error("Failed to get ref to research project.");
                     return false;
                 }
 
-                return DefRefs.InstantFlick_AA.IsFinished;
+                return DefRefs.InstantRemoteFlick.IsFinished;
             }
         }
 

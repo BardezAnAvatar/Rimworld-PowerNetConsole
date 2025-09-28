@@ -72,10 +72,7 @@ Also has the ability to switch machines on or off remotely.</description>
         <transmitsPower>false</transmitsPower>
       </li>
     </comps>
-    <constructionSkillPrerequisite>2</constructionSkillPrerequisite>
-    <researchPrerequisites>
-      <li>Entry_AA</li>
-    </researchPrerequisites>
+    <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
   </ThingDef>
 
   </Defs>

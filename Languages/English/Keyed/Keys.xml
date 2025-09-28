@@ -2,6 +2,8 @@
 <LanguageData>
 
 	<!-- General -->
+	<AA.On>on</AA.On>
+	<AA.Off>off</AA.Off>
 	<AA.Enabled>enabled</AA.Enabled>
 	<AA.Turn>turn</AA.Turn>  <!-- As in 'turn' machine on or off. -->
 	<AA.Name>name</AA.Name>

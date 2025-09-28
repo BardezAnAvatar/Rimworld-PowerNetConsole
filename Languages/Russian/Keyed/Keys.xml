@@ -1,25 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <!-- General -->
-  <AA.Enabled>питание</AA.Enabled>
-  <AA.Turn>включить</AA.Turn>  <!-- As in 'turn' machine on or off. -->
-  <AA.Name>имя</AA.Name>
-  <AA.Power>мощность</AA.Power>
+	<!-- General -->
+	<AA.On>вкл.</AA.On>
+	<AA.Off>выкл.</AA.Off>
+	<AA.Enabled>питание</AA.Enabled>
+	<AA.Turn>включить</AA.Turn>  <!-- As in 'turn' machine on or off. -->
+	<AA.Name>имя</AA.Name>
+	<AA.Power>мощность</AA.Power>
 
-  <!-- PowerNet Console -->
-  <AA.OpenConsole>Открыть консоль</AA.OpenConsole>
-  <AA.OpenConsoleDesc>Показывает детальную информацию о подключенной энергосети, и позволяет включать и отключать питание.</AA.OpenConsoleDesc>
-  <AA.PowerNetInfo>Энергосеть</AA.PowerNetInfo>
-  <AA.InstantFlickActive>Переключение доступно!</AA.InstantFlickActive>
-  <AA.Watts>W</AA.Watts>
-  <AA.KiloWatts>KW</AA.KiloWatts>
-  <AA.MegaWatts>MW</AA.MegaWatts>
-  <AA.GigaWatts>GW</AA.GigaWatts>
-  <AA.ConsoleNotConnected>Консоль не подключена к энергосети.</AA.ConsoleNotConnected>
-  <AA.ConsoleNotPowered>Консоль обесточена.</AA.ConsoleNotPowered>
-  <AA.Ascending>(Воз)</AA.Ascending>
-  <AA.Descending>(Убв)</AA.Descending>
-  <AA.TurnAll>включить Все</AA.TurnAll>  <!-- As in 'turn all' machines on/off. -->
+	<!-- PowerNet Console -->
+	<AA.OpenConsole>Открыть консоль</AA.OpenConsole>
+	<AA.OpenConsoleDesc>Показывает детальную информацию о подключенной энергосети, и позволяет включать и отключать питание.</AA.OpenConsoleDesc>
+	<AA.PowerNetInfo>Энергосеть</AA.PowerNetInfo>
+	<AA.InstantFlickActive>Переключение доступно!</AA.InstantFlickActive>
+	<AA.Watts>W</AA.Watts>
+	<AA.KiloWatts>KW</AA.KiloWatts>
+	<AA.MegaWatts>MW</AA.MegaWatts>
+	<AA.GigaWatts>GW</AA.GigaWatts>
+	<AA.ConsoleNotConnected>Консоль не подключена к энергосети.</AA.ConsoleNotConnected>
+	<AA.ConsoleNotPowered>Консоль обесточена.</AA.ConsoleNotPowered>
+	<AA.Ascending>(Воз)</AA.Ascending>
+	<AA.Descending>(Убв)</AA.Descending>
+	<AA.TurnAll>включить Все</AA.TurnAll>  <!-- As in 'turn all' machines on/off. -->
 
 </LanguageData>

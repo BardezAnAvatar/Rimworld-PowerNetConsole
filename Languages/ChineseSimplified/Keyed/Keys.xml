@@ -2,6 +2,8 @@
 <LanguageData>
 
 	<!-- General -->
+	<AA.On>开启</AA.On>
+	<AA.Off>关闭</AA.Off>
 	<AA.Enabled>启用</AA.Enabled>
 	<AA.Turn>转换</AA.Turn> <!-- As in 'turn' machine on or off. -->
 	<AA.Name>名称</AA.Name>

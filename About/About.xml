@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<packageId>bardez.powernetconsole</packageId>
-	<name>PowerNet Console</name>
-	<author>Bardez, Epicguru (James B)</author>
-	<supportedVersions>
-		<li>1.6</li>
-	</supportedVersions>
-	<url>https://github.com/BardezAnAvatar/Rimworld-PowerNetConsole</url>
-	<description>
+  <packageId>bardez.power.powernetconsole</packageId>
+  <name>PowerNet Console</name>
+  <author>Bardez</author>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <url>https://github.com/BardezAnAvatar/Rimworld-PowerNetConsole</url>
+  <description>
     [h1]Adds a power management console.[/h1]
-		Adds the PowerNet console to the game, which can remotely manage the power toggling of any devices connected on the power network.
+    Adds the PowerNet console to the game, which can remotely manage the power toggling of any devices connected on the power network.
 
-		Please report any bugs on the steam page or on Github, providing as much detail as possible, thanks.
-		See the store page for all plans, and don't hesitate to suggest new features or changes.
+    Please report any bugs on the steam page or on Github, providing as much detail as possible, thanks.
+    See the store page for all plans, and don't hesitate to suggest new features or changes.
 
     Note: Forked and extracted this functionality from [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2113692574]Antimatter Annihilation[/url]
-	</description>
-	<modDependencies>
-		<li>
-			<packageId>brrainz.harmony</packageId>
-			<displayName>Harmony</displayName>
-			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
-			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
-		</li>
-	</modDependencies>
-	<loadAfter>
-		<li>brrainz.harmony</li>
-		<li>co.uk.epicguru.ingamewiki</li>
-		<!-- Which has to go after Harmony, so that is sorted. -->
-	</loadAfter>
+  </description>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>co.uk.epicguru.ingamewiki</li>
+    <!-- Which has to go after Harmony, so that is sorted. -->
+  </loadAfter>
 </ModMetaData>

@@ -8,11 +8,13 @@
 	</supportedVersions>
 	<url>https://github.com/BardezAnAvatar/Rimworld-PowerNetConsole</url>
 	<description>
-		&lt;size=24&gt;Adds a power management console.&lt;/size&gt;
+    [h1]Adds a power management console.[/h1]
 		Adds the PowerNet console to the game, which can remotely manage the power toggling of any devices connected on the power network.
 
 		Please report any bugs on the steam page or on Github, providing as much detail as possible, thanks.
 		See the store page for all plans, and don't hesitate to suggest new features or changes.
+
+    Note: Forked and extracted this functionality from [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2113692574]Antimatter Annihilation[/url]
 	</description>
 	<modDependencies>
 		<li>

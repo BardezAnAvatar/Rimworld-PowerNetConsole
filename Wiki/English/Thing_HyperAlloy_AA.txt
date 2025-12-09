@@ -1,5 +1,0 @@
-RequiredResearch:R_HyperAlloy_AA
-ENDTAGS
-
-#Manufactured using the Alloy Fusion Machine:#
-@AlloyFusionMachine_AA@

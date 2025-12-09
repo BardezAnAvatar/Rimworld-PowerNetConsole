@@ -1,8 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <InstantFlick_AA.label>мгновенное переключение</InstantFlick_AA.label>
-  <InstantFlick_AA.description>Используя Консоль Энергосети, посылайте сигнал, по силовым линиям, напрямую оборудованию для мгновенного включения или выключения.</InstantFlick_AA.description>
-
+  <InstantRemoteFlick.label>мгновенное переключение</InstantRemoteFlick.label>
+  <InstantRemoteFlick.description>Используя Консоль Энергосети, посылайте сигнал, по силовым линиям, напрямую оборудованию для мгновенного включения или выключения.</InstantRemoteFlick.description>
 
 </LanguageData>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchProjectDef>
+		<defName>PowerNetConsole_Building</defName>
+		<label>PowerNet Console</label>
+		<description>A console that integrates with your power grid that gives detail over what draws power from your grid.</description>
+		<baseCost>600</baseCost>
+		<techLevel>Industrial</techLevel>
+		<tab>PowerNet</tab>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>1.45</researchViewY>
+		<prerequisites>
+			<li>MicroelectronicsBasics</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+</Defs>

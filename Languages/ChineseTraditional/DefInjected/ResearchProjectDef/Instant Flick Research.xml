@@ -1,8 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <InstantFlick_AA.label>立即切換</InstantFlick_AA.label>
-  <InstantFlick_AA.description>使用電網控制台，發送一個信號直接通過電力線路立即啟動或關閉機器。</InstantFlick_AA.description>
-
+  <InstantRemoteFlick.label>立即切換</InstantRemoteFlick.label>
+  <InstantRemoteFlick.description>使用電網控制台，發送一個信號直接通過電力線路立即啟動或關閉機器。</InstantRemoteFlick.description>
 
 </LanguageData>

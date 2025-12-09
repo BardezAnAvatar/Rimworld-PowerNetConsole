@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef ParentName="BuildingBase">
+		<category>Building</category>
+		<tickerType>Normal</tickerType>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<canOverlapZones>false</canOverlapZones>
+		<altitudeLayer>Building</altitudeLayer>
+		<blockWind>false</blockWind>
+		<castEdgeShadows>false</castEdgeShadows>
+		<designationCategory>Power</designationCategory>
+
+		<defName>PowerNetConsole</defName>
+		<thingClass>PowerNetConsole.Buildings.Building_PowerNetConsole</thingClass>
+		<label>PowerNet console</label>
+		<description>Shows a detailed overview of the power network, showing where power is being used and produced. Also has the ability to switch machines on or off remotely.</description>
+		<graphicData>
+			<texPath>PowerNetConsole/Buildings/PowerNetConsole</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsPower</li>
+		</thingCategories>
+		<rotatable>true</rotatable>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<passability>PassThroughOnly</passability>
+		<pathCost>90</pathCost>
+		<selectable>true</selectable>
+		<size>(1, 1)</size>
+		<costList>
+			<Steel>90</Steel>
+			<ComponentIndustrial>6</ComponentIndustrial>
+		</costList>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>50</basePowerConsumption>
+				<transmitsPower>false</transmitsPower>
+			</li>
+		</comps>
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+		</building>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+		<statBases>
+			<MaxHitPoints>400</MaxHitPoints>
+			<WorkToBuild>35000</WorkToBuild>
+			<Flammability>3.0</Flammability>
+			<Beauty>-2</Beauty>
+			<Cleanliness>10</Cleanliness>
+			<Mass>80</Mass>
+		</statBases>
+		<researchPrerequisites>
+			<li>PowerNetConsole_Building</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+</Defs>

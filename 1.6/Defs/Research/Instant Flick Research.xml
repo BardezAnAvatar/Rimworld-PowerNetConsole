@@ -9,7 +9,7 @@
 		<techLevel>Industrial</techLevel>
 		<tab>PowerNet</tab>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-		<researchViewX>1.50</researchViewX>
+		<researchViewX>2.50</researchViewX>
 		<researchViewY>1.45</researchViewY>
 		<prerequisites>
 			<li>PowerNetConsole_Building</li>
